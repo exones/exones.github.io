@@ -1,1 +1,2 @@
-jekyll server --config _windows_config.yml --watch --verbose
+cd jekyll_site
+jekyll serve
