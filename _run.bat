@@ -1,0 +1,1 @@
+jekyll server --config _windows_config.yml --watch --verbose
