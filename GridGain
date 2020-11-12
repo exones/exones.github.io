@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T14:38:55.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="jhO-ecvEX2Ni6NteN62-" version="13.9.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-11-12T14:42:18.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="4L6A17y077zgYamq9h-k" version="13.9.7" type="github" pages="14">
   <diagram id="RqPB6xnYUGyXHmbiioHq" name="PVCR">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1262,90 +1262,90 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="5EOHWfBM8wbw80KoBFBw" name="Page-14">
+  <diagram id="5EOHWfBM8wbw80KoBFBw" name="BAM/QOS Security">
     <mxGraphModel dx="1726" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="GZmuJai8NAK9yQWNkYri-0" />
         <mxCell id="GZmuJai8NAK9yQWNkYri-1" parent="GZmuJai8NAK9yQWNkYri-0" />
-        <mxCell id="GZmuJai8NAK9yQWNkYri-2" value="jaas.conf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GZmuJai8NAK9yQWNkYri-1">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-2" value="jaas.conf" style="rounded=0;whiteSpace=wrap;html=1;" parent="GZmuJai8NAK9yQWNkYri-1" vertex="1">
           <mxGeometry x="400" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GZmuJai8NAK9yQWNkYri-3" value="adpfoproc.keytab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GZmuJai8NAK9yQWNkYri-1">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-3" value="adpfoproc.keytab" style="rounded=0;whiteSpace=wrap;html=1;" parent="GZmuJai8NAK9yQWNkYri-1" vertex="1">
           <mxGeometry x="660" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GZmuJai8NAK9yQWNkYri-4" value="krb5.conf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GZmuJai8NAK9yQWNkYri-1">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-4" value="krb5.conf" style="rounded=0;whiteSpace=wrap;html=1;" parent="GZmuJai8NAK9yQWNkYri-1" vertex="1">
           <mxGeometry x="414" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GZmuJai8NAK9yQWNkYri-5" value="JVM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GZmuJai8NAK9yQWNkYri-1">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-5" value="JVM" style="rounded=0;whiteSpace=wrap;html=1;" parent="GZmuJai8NAK9yQWNkYri-1" vertex="1">
           <mxGeometry x="40" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GZmuJai8NAK9yQWNkYri-6" value="qos-truststore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GZmuJai8NAK9yQWNkYri-1">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-6" value="qos-truststore" style="rounded=0;whiteSpace=wrap;html=1;" parent="GZmuJai8NAK9yQWNkYri-1" vertex="1">
           <mxGeometry x="250" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GZmuJai8NAK9yQWNkYri-7" value="-Djava.security.auth.login.config" style="endArrow=classic;html=1;" edge="1" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-5" target="GZmuJai8NAK9yQWNkYri-2">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-7" value="-Djava.security.auth.login.config" style="endArrow=classic;html=1;" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-5" target="GZmuJai8NAK9yQWNkYri-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="310" as="sourcePoint" />
             <mxPoint x="220" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GZmuJai8NAK9yQWNkYri-8" value="&lt;div&gt;KafkaClient / keyTab&lt;/div&gt;" style="endArrow=classic;html=1;" edge="1" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-2" target="GZmuJai8NAK9yQWNkYri-3">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-8" value="&lt;div&gt;KafkaClient / keyTab&lt;/div&gt;" style="endArrow=classic;html=1;" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-2" target="GZmuJai8NAK9yQWNkYri-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="140" as="sourcePoint" />
             <mxPoint x="410" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GZmuJai8NAK9yQWNkYri-9" value="-Djava.security.krb5.conf" style="endArrow=classic;html=1;" edge="1" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-5" target="GZmuJai8NAK9yQWNkYri-4">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-9" value="-Djava.security.krb5.conf" style="endArrow=classic;html=1;" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-5" target="GZmuJai8NAK9yQWNkYri-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="470" as="sourcePoint" />
             <mxPoint x="170" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GZmuJai8NAK9yQWNkYri-10" value="-Djavax.net.ssl.trustStore&lt;br&gt;-Djavax.net.ssl.trustStorePassword" style="endArrow=classic;html=1;" edge="1" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-5" target="GZmuJai8NAK9yQWNkYri-6">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-10" value="-Djavax.net.ssl.trustStore&lt;br&gt;-Djavax.net.ssl.trustStorePassword" style="endArrow=classic;html=1;" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-5" target="GZmuJai8NAK9yQWNkYri-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="480" as="sourcePoint" />
             <mxPoint x="150" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GZmuJai8NAK9yQWNkYri-12" value="log4j2.xml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GZmuJai8NAK9yQWNkYri-1">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-12" value="log4j2.xml" style="rounded=0;whiteSpace=wrap;html=1;" parent="GZmuJai8NAK9yQWNkYri-1" vertex="1">
           <mxGeometry x="50" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GZmuJai8NAK9yQWNkYri-13" value="-Dlog4j.configuration" style="endArrow=classic;html=1;" edge="1" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-5" target="GZmuJai8NAK9yQWNkYri-12">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-13" value="-Dlog4j.configuration" style="endArrow=classic;html=1;" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-5" target="GZmuJai8NAK9yQWNkYri-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="570" as="sourcePoint" />
             <mxPoint x="50" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GZmuJai8NAK9yQWNkYri-14" value="&lt;div&gt;&amp;lt;Kafka name=&quot;&lt;b&gt;KafkaBAM&lt;/b&gt;&quot; topic=&quot;topic-gos-bam&quot;&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;lt;PatternLayout pattern=&quot;%message&quot;/&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;lt;Property name=&quot;bootstrap.servers&quot;&amp;gt;sldifrdwbhk01.fr.intranet:9092,...&amp;lt;/Property&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;lt;Property name=&quot;security.protocol&quot;&amp;gt;&lt;b&gt;SASL_PLAINTEXT&lt;/b&gt;&amp;lt;/Property&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;lt;Property name=&quot;sasl.kerberos.service.name&quot;&amp;gt;kafka&amp;lt;/Property&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;/Kafka&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;" vertex="1" parent="GZmuJai8NAK9yQWNkYri-1">
+        <mxCell id="GZmuJai8NAK9yQWNkYri-14" value="&lt;div&gt;&amp;lt;Kafka name=&quot;&lt;b&gt;KafkaBAM&lt;/b&gt;&quot; topic=&quot;topic-gos-bam&quot;&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;lt;PatternLayout pattern=&quot;%message&quot;/&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;lt;Property name=&quot;bootstrap.servers&quot;&amp;gt;sldifrdwbhk01.fr.intranet:9092,...&amp;lt;/Property&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;lt;Property name=&quot;security.protocol&quot;&amp;gt;&lt;b&gt;SASL_PLAINTEXT&lt;/b&gt;&amp;lt;/Property&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;lt;Property name=&quot;sasl.kerberos.service.name&quot;&amp;gt;kafka&amp;lt;/Property&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;/Kafka&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;" parent="GZmuJai8NAK9yQWNkYri-1" vertex="1">
           <mxGeometry x="570" y="490" width="646" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="2pfQhWwBHMDkWJzxx4jE-0" value="&lt;div&gt;&amp;lt;Kafka name=&quot;&lt;b&gt;KafkaQOS&lt;/b&gt;&quot; topic=&quot;qos-logs-pfo&quot;&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;lt;PatternLayout pattern=&quot;%message&quot;/&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;lt;Property name=&quot;bootstrap.servers&quot;&amp;gt;slpifrkfkqos1.fr.intranet:9093,...&amp;lt;/Property&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;lt;Property name=&quot;security.protocol&quot;&amp;gt;&lt;b&gt;SSL&lt;/b&gt;&amp;lt;/Property&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;/Kafka&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;" vertex="1" parent="GZmuJai8NAK9yQWNkYri-1">
+        <mxCell id="2pfQhWwBHMDkWJzxx4jE-0" value="&lt;div&gt;&amp;lt;Kafka name=&quot;&lt;b&gt;KafkaQOS&lt;/b&gt;&quot; topic=&quot;qos-logs-pfo&quot;&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;lt;PatternLayout pattern=&quot;%message&quot;/&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;lt;Property name=&quot;bootstrap.servers&quot;&amp;gt;slpifrkfkqos1.fr.intranet:9093,...&amp;lt;/Property&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;lt;Property name=&quot;security.protocol&quot;&amp;gt;&lt;b&gt;SSL&lt;/b&gt;&amp;lt;/Property&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;/Kafka&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;" parent="GZmuJai8NAK9yQWNkYri-1" vertex="1">
           <mxGeometry x="140" y="680" width="640" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="2pfQhWwBHMDkWJzxx4jE-1" value="" style="endArrow=classic;html=1;fontFamily=Courier New;" edge="1" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-12" target="GZmuJai8NAK9yQWNkYri-14">
+        <mxCell id="2pfQhWwBHMDkWJzxx4jE-1" value="" style="endArrow=classic;html=1;fontFamily=Courier New;" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-12" target="GZmuJai8NAK9yQWNkYri-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="590" as="sourcePoint" />
             <mxPoint x="400" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2pfQhWwBHMDkWJzxx4jE-2" value="" style="endArrow=classic;html=1;fontFamily=Courier New;" edge="1" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-12" target="2pfQhWwBHMDkWJzxx4jE-0">
+        <mxCell id="2pfQhWwBHMDkWJzxx4jE-2" value="" style="endArrow=classic;html=1;fontFamily=Courier New;" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-12" target="2pfQhWwBHMDkWJzxx4jE-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="820" as="sourcePoint" />
             <mxPoint x="350" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2pfQhWwBHMDkWJzxx4jE-3" value="requires" style="endArrow=classic;html=1;fontFamily=Courier New;dashed=1;" edge="1" parent="GZmuJai8NAK9yQWNkYri-1" source="2pfQhWwBHMDkWJzxx4jE-0" target="GZmuJai8NAK9yQWNkYri-6">
+        <mxCell id="2pfQhWwBHMDkWJzxx4jE-3" value="requires" style="endArrow=classic;html=1;fontFamily=Courier New;dashed=1;" parent="GZmuJai8NAK9yQWNkYri-1" source="2pfQhWwBHMDkWJzxx4jE-0" target="GZmuJai8NAK9yQWNkYri-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="660" as="sourcePoint" />
             <mxPoint x="420" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2pfQhWwBHMDkWJzxx4jE-4" value="requires" style="endArrow=classic;html=1;dashed=1;fontFamily=Courier New;" edge="1" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-14" target="GZmuJai8NAK9yQWNkYri-4">
+        <mxCell id="2pfQhWwBHMDkWJzxx4jE-4" value="requires" style="endArrow=classic;html=1;dashed=1;fontFamily=Courier New;" parent="GZmuJai8NAK9yQWNkYri-1" source="GZmuJai8NAK9yQWNkYri-14" target="GZmuJai8NAK9yQWNkYri-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="630" y="370" as="sourcePoint" />
             <mxPoint x="680" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2pfQhWwBHMDkWJzxx4jE-5" value="requires" style="endArrow=classic;html=1;dashed=1;fontFamily=Courier New;" edge="1" parent="GZmuJai8NAK9yQWNkYri-1" source="2pfQhWwBHMDkWJzxx4jE-0" target="GZmuJai8NAK9yQWNkYri-4">
+        <mxCell id="2pfQhWwBHMDkWJzxx4jE-5" value="requires" style="endArrow=classic;html=1;dashed=1;fontFamily=Courier New;" parent="GZmuJai8NAK9yQWNkYri-1" source="2pfQhWwBHMDkWJzxx4jE-0" target="GZmuJai8NAK9yQWNkYri-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="746.3500000000001" y="490" as="sourcePoint" />
             <mxPoint x="534" y="388.6396181384248" as="targetPoint" />
