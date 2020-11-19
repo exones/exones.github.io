@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T14:42:18.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="4L6A17y077zgYamq9h-k" version="13.9.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-11-19T14:17:39.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="p5MTNmIpVgA70rAkJcZh" version="13.9.7" type="github" pages="15">
   <diagram id="RqPB6xnYUGyXHmbiioHq" name="PVCR">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -344,7 +344,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ogH8TxORnTU-sV5Qzs-u" name="User Version">
-    <mxGraphModel dx="1208" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1208" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wn1E7wzXiAukNeCZ9lUo-0" />
         <mxCell id="wn1E7wzXiAukNeCZ9lUo-1" parent="wn1E7wzXiAukNeCZ9lUo-0" />
@@ -1353,6 +1353,59 @@
               <mxPoint x="490" y="510" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tfV3UoR5tdYjHz-YZ_Xf" name="Synchro Grid">
+    <mxGraphModel dx="1208" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-0" />
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-1" parent="LxhqgoV7jgCG4oHf5uUX-0" />
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" vertex="1" parent="LxhqgoV7jgCG4oHf5uUX-1">
+          <mxGeometry x="405" y="440" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-2" value="Jacques + Rogerio&lt;br&gt;(grid: DEV, TEST)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="LxhqgoV7jgCG4oHf5uUX-1">
+          <mxGeometry x="80" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-3" value="PFO Team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="LxhqgoV7jgCG4oHf5uUX-1">
+          <mxGeometry x="670" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-4" value="ignite-server.xml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LxhqgoV7jgCG4oHf5uUX-1">
+          <mxGeometry x="300" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-5" value="ignite-sensitive.xml" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="LxhqgoV7jgCG4oHf5uUX-1">
+          <mxGeometry x="430" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-6" value="Git" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="LxhqgoV7jgCG4oHf5uUX-1">
+          <mxGeometry x="470" y="40" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-7" value="include" style="endArrow=classic;html=1;" edge="1" parent="LxhqgoV7jgCG4oHf5uUX-1" source="LxhqgoV7jgCG4oHf5uUX-4" target="LxhqgoV7jgCG4oHf5uUX-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="430" as="sourcePoint" />
+            <mxPoint x="170" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-8" value="Antoine Malgras&lt;br&gt;(prod app: BENCH)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="LxhqgoV7jgCG4oHf5uUX-1">
+          <mxGeometry x="90" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-11" value="Pull Request" style="endArrow=classic;html=1;" edge="1" parent="LxhqgoV7jgCG4oHf5uUX-1" source="LxhqgoV7jgCG4oHf5uUX-3" target="LxhqgoV7jgCG4oHf5uUX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="390" as="sourcePoint" />
+            <mxPoint x="520" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-14" value="Validate PR" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LxhqgoV7jgCG4oHf5uUX-1" source="LxhqgoV7jgCG4oHf5uUX-2" target="LxhqgoV7jgCG4oHf5uUX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="430" as="sourcePoint" />
+            <mxPoint x="290" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-15" value="TEST / BENCH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="LxhqgoV7jgCG4oHf5uUX-1">
+          <mxGeometry x="610" y="110" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LxhqgoV7jgCG4oHf5uUX-16" value="XLD" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LxhqgoV7jgCG4oHf5uUX-1">
+          <mxGeometry x="160" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
